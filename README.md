@@ -1,0 +1,1 @@
+This is the Delivery component developed within the VRTogether consortium
