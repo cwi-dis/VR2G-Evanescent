@@ -3,3 +3,7 @@ This is the Delivery component developed within the VRTogether consortium. Curre
 Usage: ```LD_LIBRARY_PATH=$DIR $DIR/evanescent.exe [--tls] [--port port_number]```
 
 If you use TLS don't forget to generate your own certificates for each server instance: https://www.digicert.com/csr-ssl-installation/apache-openssl.htm.
+
+When deleting resources you can use a wildcard:
+```curl -X DELETE http://127.0.0.1:9000/aaaa*bbbb```
+
